@@ -1,0 +1,76 @@
+.permissions-management-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.permissions-form {
+  display: grid;
+  gap: 15px;
+}
+
+.permissions-form input, .permissions-form select {
+  width: 100%;
+  max-width: 400px;
+}
+
+.permissions-table {
+  margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.permissions-table th {
+  background-color: black ;
+  color: #fff;
+  padding: 12px;
+}
+.permissions-table td {
+  color: black;
+  padding: 12px;
+  text-align: center;
+ 
+}
+
+.permissions-table button {
+  padding: 8px 12px;
+  background-color: #63ff66;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 8px;
+}
+
+.permissions-table button:hover {
+  background-color: #5cff10;
+}
+
+.permissions-table .btn-danger {
+  background-color: #ff5252;
+}
+
+.permissions-table .btn-danger:hover {
+  background-color: #e84e4e;
+}
+
+
+@media (max-width: 768px) {
+  .permissions-table th, .permissions-table td {
+    font-size: 14px;
+  }
+
+  .permissions-form input, .permissions-form select {
+    width: 100%;
+  }
+}
