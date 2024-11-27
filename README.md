@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+##add signup login page for authentication 
+## to check that or move fprword to the app you have to start the json server first with the commant in the db folders 
+   jason-server   --watch db.json  --port 5000
+
+use this commant to start the json server alongside the npm server 
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,6 +22,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+## you can go throw the pages and add all things in a tabe for a btter view in localhost before deployment 
 
 ### `npm test`
 
